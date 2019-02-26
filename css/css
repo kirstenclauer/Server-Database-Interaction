@@ -1,0 +1,117 @@
+body {
+	margin: 0px auto;
+        width: 80%;
+	background: #EDEAE5;
+	font-family: helvetica;
+        color: #FCE181;
+        text-align:center;
+}
+
+#nav{ 
+    margin: 20px;
+    height: 60px;
+    
+    background-color: #9FEDD7; 
+    padding: 10px; 
+    text-align: center; 
+    align-content: center; 
+    justify-content: center; 
+}
+
+#feature, #footer {
+	margin: 1%;
+}
+
+#footer{
+	background-color: #9FEDD7;
+	padding: 0.5em 0;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+        
+        color: #026670;
+}
+
+#feature{        
+	height: 100%;
+	margin-bottom: 1em;
+	background-color: #026670;
+}
+
+/* style the dropdown button */
+.dropbtn {
+	background-color: #026670;
+	color: white;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+/* container of the dropdown content */
+.dropdown {
+	margin: 0px auto;
+        width: 22%;
+        background-color: #026670;
+	float: left;
+	padding: 10px;
+}
+
+.dropdown-content{
+	display: none;
+	position: fixed;
+	background-color: #026670;
+	min-width: 100px;
+
+	z-index: 1;
+}
+/*links inside dropdown menu */
+.dropdown-content a{
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    background-color: #026670;
+}
+/*changes color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #026670;}
+/*show menu on hover */
+.dropdown:hover .dropdown-content{ display: block; }
+/*changes color of dropdown button when the content is shown */
+.dropdown:hover .dropbtn {
+    background-color: cyan;
+}
+
+h1 {   
+	color: #FEF9C7;
+	font: helvetica;
+	padding: 30px;
+	letter-spacing: 5px;
+        font-size: 40px;
+        text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#center {
+    margin: 0px auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    align-content: center; 
+    justify-content: center; 
+}
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  table{
+      width: 800px; 
+      height: 800px;
+      color: #FCE181;
+      overflow: auto;
+  }

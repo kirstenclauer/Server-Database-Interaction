@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type = "text/css" href="css/css.css" />
+        <script src="scripts/showContact.js"></script>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>        
+         <div id="nav"> 
+		<div class="dropdown">
+                    <a href="index.php">
+				<button class="dropbtn">Home</button>
+                    </a>
+				<div class="dropdown-content">
+  			</div>
+		</div>
+	</div>
+
+	<div id="feature"> 
+      
+      <!--get first name of user, store it to the database-->
+
+           <hr> 
+            <h1> Get user: </h1>
+        <div>First name of Contact: <input type="text" name="fnamet" value="" 
+                                           onchange="getFName(this.value)">
+        </div><br>
+   
+        <div id="JSONoutPlace">...</div>
+        <hr>
+        
+        <!--Database output-->
+
+        <p>Names of entered first name:</p>  
+        <div id="DBoutPlace">...</div>
+                 
+            
+        </div>
+            
+
+<div id="footer"> 
+<p> </p>
+</div>
+    </body>
+
+
+</html>
